@@ -14,7 +14,7 @@ std::vector<T> processarVetor(const std::vector<T>& vetor, std::function<T(T)> f
 // Exemplo de uso
 int main() {
     // Vetor de inteiros
-    std::vector<int> numeros = {1, 2, 3, 4, 5, 6};
+    std::vector<int> numeros = {1, 2, 3, 4, 5};
     
     // Função para dobrar um número
     auto dobrar = [](int x) { return x * 2; };
